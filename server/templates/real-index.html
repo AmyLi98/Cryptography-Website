@@ -1,0 +1,429 @@
+ <!-- Cryptography Design / Amy Li -->
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="Cryptography Course Webpage Design">
+    <meta name="author" content="">
+
+    <title>Cryptography Design</title>
+	<link rel="icon" type="image/x-icon" href="../statics/images/icon/browser_pass.ico"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../statics/css/bootstrap.min1.css" rel="stylesheet">
+
+    <!-- Custom Google Web Font -->
+    <link href="../statics/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+	
+    <!-- Custom CSS-->
+    <link href="../statics/css/general.css" rel="stylesheet">
+	
+	 <!-- Owl-Carousel -->
+    <link href="../statics/css/custom.css" rel="stylesheet">
+	<link href="../statics/css/owl.carousel.css" rel="stylesheet">
+    <link href="../statics/css/owl.theme.css" rel="stylesheet">
+	<link href="../statics/css/style1.css" rel="stylesheet">
+	<link href="../statics/css/animate1.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="../statics/css/magnific-popup.css">
+    <!--<link rel="stylesheet" href="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	-->
+	<script src="../statics/js/modernizr-2.6.2.min.js"></script>  <!-- Modernizr /-->
+</head>
+
+<body id="home">
+
+	<!-- 预加载器 -->
+	<div id="preloader">
+		<div id="status"></div>
+	</div>
+	
+	<!-- 全屏幕 -->
+    <div class="intro-header">
+		<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Cryptography</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Encode&nbsp; & &nbsp;Decode</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="https://github.com/WangHexie/CryptographyExperimentCourse3" class="btn btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">GitHub</span></a>
+				</li>
+				<li id="use" ><a href="#start" class="btn btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Start to use</span></a>
+				</li>
+			</ul>
+		</div>    
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#function"> <img class="img_scroll" src="../statics/images/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- 导航栏 -->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>	<!-- 切换导航 -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">Cryptography</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#function">Function</a></li>
+					<li class="menuItem"><a href="#start">Start</a></li>
+					<li class="menuItem"><a href="#team">Team</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- Function -->
+	<div id="function" class="content-section-b" style="border-top: 0">
+		<div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Function</h2>
+				<p class="lead" style="margin-top:0">A website implements many cryptography functions.</p>
+				
+			</div>
+
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/CS.svg" alt="Generic placeholder image">
+				  <h3>Caesar cipher</h3>
+				  <p class="lead">It is a technique for replacing encryption. All letters in the plaintext are replaced backwards (or forward) by a fixed number and then replaced with ciphertext. </p>
+
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/KY.svg" alt="Generic placeholder image">
+				   <h3>Keyword cipher</h3>
+				   <p class="lead">The Keyword Cipher uses a Keyword to rearrange the letters in the alphabet. These different letters are then substituted for the letters in the message to create a secret message. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/VG.svg" alt="Generic placeholder image">
+				   <h3>Vigenere cipher</h3>
+					<p class="lead">The Vigenere cipher is a method of encrypting alphabetic text by using a series of interwoven Caesar ciphers, based on the letters of a keyword. It is a form of polyalphabetic substitution. </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+				
+			<div class="row tworow">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/AP.svg" alt="Generic placeholder image">
+				  <h3>Autokey plaintext</h3>
+				  <p class="lead">An autokey-plaintext cipher(also known as text-autokey) is a cipher that incorporates the plaintext into the key. It uses the previous message text to determine the next element in the keystream. </p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/PF.svg" alt="Generic placeholder image">
+				   <h3>Playfair cipher</h3>
+				   <p class="lead">The Playfair cipher is a digraph substitution cipher. It employs a table where one letter of the alphabet is omitted, and the letters are arranged in a 5x5 grid(I takes place J). </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/CP.svg" alt="Generic placeholder image">
+				   <h3>Column permutation</h3>
+				 <p class="lead">The message is written out in rows of a fixed length, and then read out column by column in some scrambled order. Both the width of the rows and the permutation of the columns are defined by a keyword. </p>
+				  <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+				
+			</div><!-- /.row -->
+
+			<div class="row threerow">
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/DT.svg" alt="Generic placeholder image">
+				  <h3>Double-Transposition</h3>
+				  <p class="lead">This is simply a columnar transposition applied twice. The same key can be used for both transpositions, or two different keys can be used. </p>
+				 <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/RC4.svg" alt="Generic placeholder image">
+				   <h3>RC4</h3>
+				   <p class="lead">RC4 is a stream encryption algorithm with a variable key length. It uses the same key for encryption and decryption, so it is also a symmetric encryption algorithm. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/DES.svg" alt="Generic placeholder image">
+				   <h3>DES</h3>
+				 <p class="lead">The message is written out in rows of a fixed length, and then read out column by column in some scrambled order. Both the width of the rows and the permutation of the columns are defined by a keyword. </p>
+				</div><!-- /.col-lg-4 -->
+
+			</div><!-- /.row -->
+
+			<div class="row fourrow">
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="../statics/images/icon/RSA.svg" alt="Generic placeholder image">
+				   <h3>RSA</h3>
+				   <p class="lead">RSA is an asymmetric encryption algorithm. RSA is widely used in public key encryption and electronic commerce. The difficulty of factoring large integers determines the reliability of the RSA algorithm. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+					<img class="rotate" src="../statics/images/icon/MD5.svg" alt="Generic placeholder image">
+				   <h3>MD5</h3>
+				   <p class="lead">The MD5 message-digest algorithm is a widely used hash function producing a 128-bit hash value. It can still be used as a checksum to verify data integrity, but only against unintentional corruption. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+
+				<div class="col-sm-4 wow fadeInDown text-center">
+					<img class="rotate" src="../statics/images/icon/DH.svg" alt="Generic placeholder image">
+				   <h3>DH key exchange</h3>
+				   <p class="lead">Diffie–Hellman key exchange(DH) is a method of securely exchanging cryptographic keys over a public channel and was one of the first public-key protocols within the field of cryptography. </p>
+				   <!-- <p><a class="btn btn-embossed btn-primary view" role="button">View Details</a></p> -->
+				</div><!-- /.col-lg-4 -->
+			</div><!-- /.row -->
+		</div>
+	</div>
+	
+	<!-- Start -->
+    <div id ="start" class="content-section-a">
+
+        <div class="container">
+
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Start</h2>
+				<p class="lead" style="margin-top:0">Single & Dual & Communication</p>
+
+			</div>
+
+            <div class="row">
+			
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="../statics/images/ipad2.png" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Single machine practice</h3>
+					<div class="sub-title lead3">Single machine implements encryption and decryption practice</div>
+                    <p class="lead">
+						The client uses different cryptographic algorithms to encrypt the plaintext information,
+						decrypt the ciphertext information and implement DH key exchange.
+						<br/>The cryptographic algorithm includes: Caesar cipher, Keyword cipher, Vigenere cipher, Autokey plaintext cipher,
+						Playfair cipher, Column permutation cipher, Double-Transposition cipher, RC4, DES and RSA.
+						<br/>Meanwhile, we implement MD5 message digest generation.
+					</p>
+
+<!-- 注意添加网址 -->
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a>
+					 <a class="btn btn-embossed btn-default" href="home_cryptography.html" role="button">Start</a></p>
+				</div>   
+            </div>
+        </div>
+        <!-- /.container -->
+    </div>
+
+    <div class="content-section-b"> 
+		
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeftBig">
+                     <div id="owl-demo-1" class="owl-carousel">
+						<a href="../statics/images/iphone.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="../statics/images/double1.png" alt="">
+							</div>
+						</a>
+						<a href="../statics/images/iphone.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="../statics/images/double2.png" alt="">
+							</div>
+						</a>
+						<a href="../statics/images/iphone.png" class="image-link">
+							<div class="item">
+								<img class="img-responsive img-rounded" src="../statics/images/double3.png" alt="">
+							</div>
+						</a>
+					</div>       
+                </div>
+				
+                <div class="col-sm-6 wow fadeInRightBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Double machine practice</h3>
+					<div class="sub-title lead3">Double machines implement two-machine communication and encryption-decryption practice</div>
+                    <p class="lead">
+
+						1) Two-machine communication implementation: It is realized by Socket programming, which can exchange messages and transfer files between two terminals.
+						<br/>2) Dual machine encryption and decryption: In the dual-machine environment, one end of which is the encryption end and the other end of which is the decryption end.
+						<br/>3) Use DH to exchange keys between the encryption side and the decryption side.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button">View Details</a> 
+					 <!--<a class="btn btn-embossed btn-default" href="#" role="button">Communication</a>-->
+					 <a class="btn btn-embossed btn-default" href="double_tool_index.html" role="button">Start</a></p>
+				</div>  			
+			</div>
+        </div>
+    </div>
+
+    <div class="content-section-a">
+
+        <div class="container">
+
+             <div class="row">
+			 
+				<div class="col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive " src="../statics/images/pc.png" alt="">
+                </div>
+			 
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">Cryptography Website & Strength</h3>
+                    <p class="lead">A convenient tool for encryption and decryption and encrypted communication. </p>
+					
+					<ul class="descp lead2">
+						<li><i class="glyphicon glyphicon-road"></i> Quick response and convenient platform</li>
+						<li><i class="glyphicon glyphicon-home"></i> Comfortable and user-friendly interface</li>
+						<li><i class="glyphicon glyphicon-envelope"></i> Powerful and cryptographic communication</li>
+					</ul>
+				</div>           
+            </div>
+        </div>
+
+    </div>
+
+
+	<!-- Team -->
+	<div id="team" class="content-section-a">
+		<div class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Team</h2>
+				<p class="lead" style="margin-top:0">We are a team that strives for excellence and unites upwards.</p>
+			 </div>
+			 
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate">
+							<i class="fa fa-male fa-4x "> </i>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Lv Zeyu </h3>
+							<p> Dedicated to the realization of dual-machine communication and dual-machine encryption and decryption function. </p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate"> 
+						<i class="fa fa-female fa-4x "> </i>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> Li Huiling </h3>
+						<p> Mainly responsible for the design and implementation of the website interface, participated in part of the algorithm implementation. </p>
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		  
+		  <div class="row tworow">
+				<div class="col-sm-6  block wow bounceIn">
+					<div class="row">
+						<div class="col-md-4 box-icon rotate">
+							<i class="fa fa-female fa-4x "> </i>
+						</div>
+						<div class="col-md-8 box-ct">
+							<h3> Ma Qiyan </h3>
+							<p> Mainly responsible for back-end logic and auxiliary front-end design because of her artistic cell. </p>
+						</div>
+				  </div>
+			  </div>
+			  <div class="col-sm-6 block wow bounceIn">
+					<div class="row">
+					  <div class="col-md-4 box-icon rotate">
+						<i class="fa fa-male fa-4x "> </i>
+					  </div>
+					  <div class="col-md-8 box-ct">
+						<h3> Jia Penghui </h3>
+						<p> Responsible and meticulous for the implementation of back-end algorithms. </p>
+					  </div>
+					</div>
+			  </div>
+		  </div>
+		</div>
+	</div>
+
+
+<footer>
+      <div class="container">
+        <div class="row"><div class="col-md-7">
+
+              <h3 class="footer-title">Cryptography</h3>
+              <ul>
+                <li>Single machine encode and decode & DH key exchange</li>
+                <li>Doucle machine encode and decode & DH key exchange</li>
+                <li>Two-machine communication</li>
+              </ul>
+          </div> <!-- /col-xs-7 -->
+
+          <div class="col-md-5">
+            <div class="footer-banner">
+                <h3 class="footer-title">Copyright</h3>
+                <p>
+                 Design owner: Amy Li<br/>
+                 Go to: &nbsp;<a href="https://github.com/WangHexie/CryptographyExperimentCourse3" target="_blank">Cryptography</a> &nbsp;to follow our project.
+                <br/><br/>Copyright &copy;2018 &nbsp;CryptographyExperimentCourse3
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</footer>
+
+
+    <!-- JavaScript -->
+    <script src="../statics/js/jquery-1.10.2.js"></script>
+    <script src="../statics/js/bootstrap.js"></script>
+	<script src="../statics/js/owl.carousel.js"></script>
+	<script src="../statics/js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="../statics/js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="../statics/js/jquery.corner.js"></script>
+	<script src="../statics/js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="../statics/js/classie.js"></script>
+	<script src="../statics/js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="../statics/js/jquery.magnific-popup.js"></script>
+</body>
+
+</html>

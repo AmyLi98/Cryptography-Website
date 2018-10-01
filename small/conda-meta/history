@@ -1,0 +1,35 @@
+==> 2018-09-24 19:39:08 <==
+# cmd: D:\Anaconda3.5\Scripts\conda create --yes --json --prefix D:\Anaconda3.5\envs\small python=3.6
++defaults::certifi-2018.8.24-py36_1
++defaults::pip-10.0.1-py36_0
++defaults::python-3.6.6-hea74fb7_0
++defaults::setuptools-40.2.0-py36_0
++defaults::vc-14.1-h0510ff6_4
++defaults::vs2015_runtime-14.15.26706-h3a45250_0
++defaults::wheel-0.31.1-py36_0
++defaults::wincertstore-0.2-py36h7fe50ca_0
+# update specs: ['python=3.6']
+==> 2018-09-24 19:40:38 <==
+# cmd: D:\Anaconda3.5\Scripts\conda install --yes --json --force-pscheck --prefix D:\Anaconda3.5\envs\small flask flask-socketio
++defaults::click-6.7-py36hec8c647_0
++defaults::flask-1.0.2-py36_1
++defaults::flask-socketio-3.0.1-py36_0
++defaults::itsdangerous-0.24-py36_1
++defaults::jinja2-2.10-py36_0
++defaults::markupsafe-1.0-py36hfa6e2cd_1
++defaults::python-engineio-2.2.0-py36_0
++defaults::python-socketio-2.0.0-py36_0
++defaults::six-1.11.0-py36_1
++defaults::werkzeug-0.14.1-py36_0
+# update specs: ['flask-socketio', 'flask']
+==> 2018-09-24 19:43:12 <==
+# cmd: D:\Anaconda3.5\Scripts\conda install --yes --json --force-pscheck --prefix D:\Anaconda3.5\envs\small numpy
++defaults::blas-1.0-mkl
++defaults::icc_rt-2017.0.4-h97af966_0
++defaults::intel-openmp-2019.0-118
++defaults::mkl-2019.0-118
++defaults::mkl_fft-1.0.4-py36h1e22a9b_1
++defaults::mkl_random-1.0.1-py36h77b88f5_1
++defaults::numpy-1.15.1-py36ha559c80_0
++defaults::numpy-base-1.15.1-py36h8128ebf_0
+# update specs: ['numpy']
