@@ -13,6 +13,5 @@ CryptographyExperimentCourse3 of Northeastern University
 
 powershell/cmd中运行流程：
 `usage:`   
-1.cd到run.vbs所在的文件目录下
-`usage:`   
+1.cd到run.vbs所在的文件目录下   
 2.执行命令：./small/python.exe run.py
