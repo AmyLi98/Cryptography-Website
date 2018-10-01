@@ -1,2 +1,2 @@
-# CryptographyExperimentCourse3
+# Cryptography
 CryptographyExperimentCourse3 of Northeastern University
