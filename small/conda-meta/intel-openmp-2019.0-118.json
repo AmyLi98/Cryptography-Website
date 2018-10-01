@@ -1,0 +1,59 @@
+{
+  "arch": "x86_64",
+  "build": "118",
+  "build_number": 118,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "D:\\Anaconda3.5\\pkgs\\intel-openmp-2019.0-118",
+  "features": "",
+  "files": [
+    "Library/bin/libiomp5md.dll",
+    "Library/bin/libiomp5md.pdb",
+    "Library/bin/libiompstubs5md.dll"
+  ],
+  "fn": "intel-openmp-2019.0-118.tar.bz2",
+  "license": "proprietary - Intel",
+  "license_family": "Proprietary",
+  "link": {
+    "source": "D:\\Anaconda3.5\\pkgs\\intel-openmp-2019.0-118",
+    "type": 1
+  },
+  "md5": "5262b8fea42c4219952b3fe589b7a1ee",
+  "name": "intel-openmp",
+  "package_tarball_full_path": "D:\\Anaconda3.5\\pkgs\\intel-openmp-2019.0-118.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/libiomp5md.dll",
+        "path_type": "hardlink",
+        "sha256": "35fb28ab9ff936b5c3b518d9ffe15e0262ff4341c46d607e535c002fb771efd4",
+        "sha256_in_prefix": "35fb28ab9ff936b5c3b518d9ffe15e0262ff4341c46d607e535c002fb771efd4",
+        "size_in_bytes": 1694424
+      },
+      {
+        "_path": "Library/bin/libiomp5md.pdb",
+        "path_type": "hardlink",
+        "sha256": "8d3f46d058ed3878a567487e6172a351f6896b79de702cdaffaa503ba3710cd7",
+        "sha256_in_prefix": "8d3f46d058ed3878a567487e6172a351f6896b79de702cdaffaa503ba3710cd7",
+        "size_in_bytes": 4566016
+      },
+      {
+        "_path": "Library/bin/libiompstubs5md.dll",
+        "path_type": "hardlink",
+        "sha256": "0d0fa41738e7425f2a867aa1ff85226d0eed1f426739e14698a0029fc3da589a",
+        "sha256_in_prefix": "0d0fa41738e7425f2a867aa1ff85226d0eed1f426739e14698a0029fc3da589a",
+        "size_in_bytes": 111320
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 1763810,
+  "subdir": "win-64",
+  "timestamp": 1537292586675,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/intel-openmp-2019.0-118.tar.bz2",
+  "version": "2019.0"
+}

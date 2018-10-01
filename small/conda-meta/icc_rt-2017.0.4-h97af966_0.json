@@ -1,0 +1,210 @@
+{
+  "arch": "x86_64",
+  "build": "h97af966_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "D:\\Anaconda3.5\\pkgs\\icc_rt-2017.0.4-h97af966_0",
+  "features": "",
+  "files": [
+    "Library/bin/1033/ifcore_msg.dll",
+    "Library/bin/1033/irc_msg.dll",
+    "Library/bin/1033/libmUI.dll",
+    "Library/bin/1041/ifcore_msg.dll",
+    "Library/bin/1041/irc_msg.dll",
+    "Library/bin/1041/libiomp5ui.dll",
+    "Library/bin/1041/libmUI.dll",
+    "Library/bin/cilkrts20.dll",
+    "Library/bin/ifdlg100.dll",
+    "Library/bin/irml/irml.dll",
+    "Library/bin/irml_c/irml.dll",
+    "Library/bin/libchkp.dll",
+    "Library/bin/libicaf.dll",
+    "Library/bin/libifcoremd.dll",
+    "Library/bin/libifcorert.dll",
+    "Library/bin/libifportmd.dll",
+    "Library/bin/libioffload_host.dll",
+    "Library/bin/libirngmd.dll",
+    "Library/bin/libmmd.dll",
+    "Library/bin/libmpx.dll",
+    "Library/bin/liboffload.dll",
+    "Library/bin/svml_dispmd.dll"
+  ],
+  "fn": "icc_rt-2017.0.4-h97af966_0.tar.bz2",
+  "license": "Intel proprietary",
+  "link": {
+    "source": "D:\\Anaconda3.5\\pkgs\\icc_rt-2017.0.4-h97af966_0",
+    "type": 1
+  },
+  "md5": "944301e089acd37660e124d78f0b3a34",
+  "name": "icc_rt",
+  "package_tarball_full_path": "D:\\Anaconda3.5\\pkgs\\icc_rt-2017.0.4-h97af966_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/bin/1033/ifcore_msg.dll",
+        "path_type": "hardlink",
+        "sha256": "223efa74ac15640ca3d103a547be911c5f87aeb8d4a2dc9140a954ebbc885c71",
+        "sha256_in_prefix": "223efa74ac15640ca3d103a547be911c5f87aeb8d4a2dc9140a954ebbc885c71",
+        "size_in_bytes": 56576
+      },
+      {
+        "_path": "Library/bin/1033/irc_msg.dll",
+        "path_type": "hardlink",
+        "sha256": "1c909afd961f1ca082dab2aa495b932fa5b5a05518d775c07a68efef49968c49",
+        "sha256_in_prefix": "1c909afd961f1ca082dab2aa495b932fa5b5a05518d775c07a68efef49968c49",
+        "size_in_bytes": 16640
+      },
+      {
+        "_path": "Library/bin/1033/libmUI.dll",
+        "path_type": "hardlink",
+        "sha256": "4a32faf0d108f2fc3f4220b395df5207a97de21211ad66d5d3c294eb71e06d3b",
+        "sha256_in_prefix": "4a32faf0d108f2fc3f4220b395df5207a97de21211ad66d5d3c294eb71e06d3b",
+        "size_in_bytes": 11008
+      },
+      {
+        "_path": "Library/bin/1041/ifcore_msg.dll",
+        "path_type": "hardlink",
+        "sha256": "8c4a31f0daa6569cd75b682750b32a989a253ba95d6d8b5db214b6d3a9c7aaff",
+        "sha256_in_prefix": "8c4a31f0daa6569cd75b682750b32a989a253ba95d6d8b5db214b6d3a9c7aaff",
+        "size_in_bytes": 42240
+      },
+      {
+        "_path": "Library/bin/1041/irc_msg.dll",
+        "path_type": "hardlink",
+        "sha256": "265283735cb6912683ade303e667b7aeff15d96c4081066cbf695a23a52b805c",
+        "sha256_in_prefix": "265283735cb6912683ade303e667b7aeff15d96c4081066cbf695a23a52b805c",
+        "size_in_bytes": 14592
+      },
+      {
+        "_path": "Library/bin/1041/libiomp5ui.dll",
+        "path_type": "hardlink",
+        "sha256": "fe918e2febecc60af803ea610d3949bbc35d9e8bb34190f936c727eb1bdcbe8d",
+        "sha256_in_prefix": "fe918e2febecc60af803ea610d3949bbc35d9e8bb34190f936c727eb1bdcbe8d",
+        "size_in_bytes": 40704
+      },
+      {
+        "_path": "Library/bin/1041/libmUI.dll",
+        "path_type": "hardlink",
+        "sha256": "6ab061b83a91d877e820cb34df8099e3cb43a38daaf8cec8af5f14ce37bed856",
+        "sha256_in_prefix": "6ab061b83a91d877e820cb34df8099e3cb43a38daaf8cec8af5f14ce37bed856",
+        "size_in_bytes": 16640
+      },
+      {
+        "_path": "Library/bin/cilkrts20.dll",
+        "path_type": "hardlink",
+        "sha256": "5d1f1c400d087dce5dd2e28a02a8445ca6d2195daa2321a34ab3ef3a2cbd74be",
+        "sha256_in_prefix": "5d1f1c400d087dce5dd2e28a02a8445ca6d2195daa2321a34ab3ef3a2cbd74be",
+        "size_in_bytes": 313584
+      },
+      {
+        "_path": "Library/bin/ifdlg100.dll",
+        "path_type": "hardlink",
+        "sha256": "aba402e64271ae269355aecf1661c6ead0339e18e829b0d9b42f21cc7289ff60",
+        "sha256_in_prefix": "aba402e64271ae269355aecf1661c6ead0339e18e829b0d9b42f21cc7289ff60",
+        "size_in_bytes": 394496
+      },
+      {
+        "_path": "Library/bin/irml/irml.dll",
+        "path_type": "hardlink",
+        "sha256": "a3d09f7e690d65906a0f4664f40146bf42a36e7010aad4ff91d7b341d8f495a3",
+        "sha256_in_prefix": "a3d09f7e690d65906a0f4664f40146bf42a36e7010aad4ff91d7b341d8f495a3",
+        "size_in_bytes": 257264
+      },
+      {
+        "_path": "Library/bin/irml_c/irml.dll",
+        "path_type": "hardlink",
+        "sha256": "19f7d0c3d6ea4c6fee12d97a70ba5a30662012fe727663e317f2ff05a05df63e",
+        "sha256_in_prefix": "19f7d0c3d6ea4c6fee12d97a70ba5a30662012fe727663e317f2ff05a05df63e",
+        "size_in_bytes": 172272
+      },
+      {
+        "_path": "Library/bin/libchkp.dll",
+        "path_type": "hardlink",
+        "sha256": "2aaa6f3af1213df754e96dac54678c835522d44a35d653e5a7032ac804c153aa",
+        "sha256_in_prefix": "2aaa6f3af1213df754e96dac54678c835522d44a35d653e5a7032ac804c153aa",
+        "size_in_bytes": 101120
+      },
+      {
+        "_path": "Library/bin/libicaf.dll",
+        "path_type": "hardlink",
+        "sha256": "d51136cca59fd2969af39031158d8518de5e3ea5f6760da156f642b9cf62b303",
+        "sha256_in_prefix": "d51136cca59fd2969af39031158d8518de5e3ea5f6760da156f642b9cf62b303",
+        "size_in_bytes": 257280
+      },
+      {
+        "_path": "Library/bin/libifcoremd.dll",
+        "path_type": "hardlink",
+        "sha256": "92731a1be9a75c19f17371a9f409a2ce086dccaa607ed8912df6fe7ad5f133bf",
+        "sha256_in_prefix": "92731a1be9a75c19f17371a9f409a2ce086dccaa607ed8912df6fe7ad5f133bf",
+        "size_in_bytes": 1744640
+      },
+      {
+        "_path": "Library/bin/libifcorert.dll",
+        "path_type": "hardlink",
+        "sha256": "89ead7a9b42cab5992ce588fc473b15b1267621d051e32433728cf4717bc7ea7",
+        "sha256_in_prefix": "89ead7a9b42cab5992ce588fc473b15b1267621d051e32433728cf4717bc7ea7",
+        "size_in_bytes": 1732864
+      },
+      {
+        "_path": "Library/bin/libifportmd.dll",
+        "path_type": "hardlink",
+        "sha256": "be718e7d0baf702b7801f1845b39d4c2f3e34701243dde8dc0ccbf8de48a84a1",
+        "sha256_in_prefix": "be718e7d0baf702b7801f1845b39d4c2f3e34701243dde8dc0ccbf8de48a84a1",
+        "size_in_bytes": 341760
+      },
+      {
+        "_path": "Library/bin/libioffload_host.dll",
+        "path_type": "hardlink",
+        "sha256": "b25bd0d33812ff81467280c8b57475dc5c131c586c432306d6e29a0c066b2dee",
+        "sha256_in_prefix": "b25bd0d33812ff81467280c8b57475dc5c131c586c432306d6e29a0c066b2dee",
+        "size_in_bytes": 935680
+      },
+      {
+        "_path": "Library/bin/libirngmd.dll",
+        "path_type": "hardlink",
+        "sha256": "3b98fb575482a0d25b067d7086c644569b8cb822feee2696e555bbbf723f06cf",
+        "sha256_in_prefix": "3b98fb575482a0d25b067d7086c644569b8cb822feee2696e555bbbf723f06cf",
+        "size_in_bytes": 1540352
+      },
+      {
+        "_path": "Library/bin/libmmd.dll",
+        "path_type": "hardlink",
+        "sha256": "f8d1a68e8d27060fb65c42e5340f8b3448de78d68a0ac86c0637c792f18d75ef",
+        "sha256_in_prefix": "f8d1a68e8d27060fb65c42e5340f8b3448de78d68a0ac86c0637c792f18d75ef",
+        "size_in_bytes": 3493632
+      },
+      {
+        "_path": "Library/bin/libmpx.dll",
+        "path_type": "hardlink",
+        "sha256": "7d9ad8db3414e0b8805eb34d36dbb5ed90374e99f699dc61c12639e4a68eadc0",
+        "sha256_in_prefix": "7d9ad8db3414e0b8805eb34d36dbb5ed90374e99f699dc61c12639e4a68eadc0",
+        "size_in_bytes": 81664
+      },
+      {
+        "_path": "Library/bin/liboffload.dll",
+        "path_type": "hardlink",
+        "sha256": "eca60c27b31e09362ee36963f028bd9fb90ba9cee85a6994ac55df0f57c7e303",
+        "sha256_in_prefix": "eca60c27b31e09362ee36963f028bd9fb90ba9cee85a6994ac55df0f57c7e303",
+        "size_in_bytes": 935680
+      },
+      {
+        "_path": "Library/bin/svml_dispmd.dll",
+        "path_type": "hardlink",
+        "sha256": "e28e4f36bf434dcf013f00ce98cf6db72266ce8fada095eaed2fee2799cd2ded",
+        "sha256_in_prefix": "e28e4f36bf434dcf013f00ce98cf6db72266ce8fada095eaed2fee2799cd2ded",
+        "size_in_bytes": 11632384
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "win32",
+  "requested_spec": "None",
+  "size": 8418464,
+  "subdir": "win-64",
+  "timestamp": 1505862380187,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/icc_rt-2017.0.4-h97af966_0.tar.bz2",
+  "version": "2017.0.4"
+}

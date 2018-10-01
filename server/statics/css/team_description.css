@@ -1,0 +1,121 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Raleway', 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    margin: 20px;
+    height: 700px;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+header.hero {
+  background: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 4px solid rgba(255, 255, 255, 0.6);
+  margin: 0 0 20px;
+}
+header.hero h1 {
+  font-size: 3em;
+  color: #555;
+  margin: 0 0 5px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 0 0 20px;
+}
+
+ul.cards-split {
+  width: 660px;
+  height: 280px;
+  list-style-type: none;
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 20px;
+  cursor: pointer;
+}
+ul.cards-split li.title {
+  margin: 0 0 20px;
+}
+ul.cards-split li.title h2 {
+  font-weight: 700;
+}
+ul.cards-split li.card {
+  background: #FFF;
+  overflow: hidden;
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  position: absolute;
+  vertical-align: middle;
+  left: 220px;
+  box-shadow: 1px 2px 2px 0 #aaa;
+  -webkit-transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+          transition: all 0.4s cubic-bezier(0.63, 0.15, 0.03, 1.12);
+}
+ul.cards-split li.card img {
+  vertical-align: middle;
+  max-width: 100%;
+  padding: 5px;
+  height: auto;
+}
+ul.cards-split li.card div.content {
+  text-align: center;
+  padding: 5px 10px;
+}
+ul.cards-split li.card.card-1 {
+  z-index: 10;
+  -webkit-transform: rotateZ(-2deg);
+          transform: rotateZ(-2deg);
+}
+ul.cards-split li.card.card-2 {
+  z-index: 9;
+  -webkit-transform: rotateZ(-7deg);
+          transform: rotateZ(-7deg);
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+ul.cards-split li.card.card-3 {
+  z-index: 8;
+  -webkit-transform: rotateZ(5deg);
+          transform: rotateZ(5deg);
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+ul.cards-split li.card.card-3 {
+  z-index: 8;
+  -webkit-transform: rotateZ(10deg);
+          transform: rotateZ(10deg);
+  -webkit-transition-delay: 0.15s;
+          transition-delay: 0.15s;
+}
+ul.cards-split.transition li.card {
+  -webkit-transform: rotateZ(0deg);
+          transform: rotateZ(0deg);
+}
+ul.cards-split.transition li.card.card-1 {
+  left: -125px;
+}
+ul.cards-split.transition li.card.card-2 {
+  left: 100px;
+}
+ul.cards-split.transition li.card.card-3 {
+  left: 325px;
+}
+ul.cards-split.transition li.card.card-4 {
+  left: 550px;
+}
