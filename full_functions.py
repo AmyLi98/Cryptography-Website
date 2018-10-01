@@ -13,7 +13,7 @@ from cryptography_library.MD5 import md5
 from cryptography_library.dh_key_exchange import DHKeyExchange
 
 
-def caesar_cipher_encrypt(plain_text: str, key: str):  # 马奇言
+def caesar_cipher_encrypt(plain_text: str, key: str):  
 
     """
     :param plain_text: 明文
@@ -36,7 +36,7 @@ def caesar_cipher_encrypt(plain_text: str, key: str):  # 马奇言
     return cipher_text
 
 
-def caesar_cipher_decrypt(cipher_text: str, key: str):  # 马奇言
+def caesar_cipher_decrypt(cipher_text: str, key: str):  
     """
 
     :param cipher_text: 密文
@@ -98,7 +98,7 @@ def keyword_cipher_decrypt(cipher_text: str, key: str):
     return plain_text
 
 
-def play_fair_encrypt(plain_text: str, key: str) -> str:  # 贾鹏晖
+def play_fair_encrypt(plain_text: str, key: str) -> str: 
     """
 
     :param plain_text: 明文
@@ -108,7 +108,7 @@ def play_fair_encrypt(plain_text: str, key: str) -> str:  # 贾鹏晖
     return playfair_encrypt(plain_text, key)
 
 
-def play_fair_decrypt(cipher_text: str, key: str) -> str:  # 贾鹏晖
+def play_fair_decrypt(cipher_text: str, key: str) -> str:  
     """
 
     :param cipher_text: 密文
@@ -118,7 +118,7 @@ def play_fair_decrypt(cipher_text: str, key: str) -> str:  # 贾鹏晖
     return playfair_decrypt(cipher_text, key)
 
 
-def autokey_plain_text_encrypt(plain_text: str, key: str):  # 李慧玲
+def autokey_plain_text_encrypt(plain_text: str, key: str):  
     """
 
     :param plain_text: 明文，均为字母字符，非字母字符的均会在函数中被删去
@@ -128,7 +128,7 @@ def autokey_plain_text_encrypt(plain_text: str, key: str):  # 李慧玲
     return autokey_cipher_encrypt(plain_text, key)
 
 
-def autokey_plain_text_decrypt(cipher_text: str, key: str):  # 李慧玲
+def autokey_plain_text_decrypt(cipher_text: str, key: str): 
     """
 
     :param cipher_text: 密文，均为字母字符，非字母字符的均会在函数中被删去
@@ -138,7 +138,7 @@ def autokey_plain_text_decrypt(cipher_text: str, key: str):  # 李慧玲
     return autokey_cipher_decrypt(cipher_text, key)
 
 
-def DES_encrypt(plain_text: str, key: str, file=False) -> str:  # 吕泽宇
+def DES_encrypt(plain_text: str, key: str, file=False) -> str:  
     """
 
     :param file: if it is a file
@@ -158,7 +158,7 @@ def DES_encrypt(plain_text: str, key: str, file=False) -> str:  # 吕泽宇
     return des.encrypt_file(plain_text, key_bin)
 
 
-def DES_decrypt(cipher_text: str, key: str, file=False) -> str:  # 吕泽宇
+def DES_decrypt(cipher_text: str, key: str, file=False) -> str: 
     """
 
     :param file: if it is a file
@@ -176,7 +176,7 @@ def DES_decrypt(cipher_text: str, key: str, file=False) -> str:  # 吕泽宇
     return des.decrypt_file(cipher_text, key_bin).decode('utf-8')
 
 
-def vigenere_encrypt(plain_text: str, key: str) -> str:  # 吕泽宇
+def vigenere_encrypt(plain_text: str, key: str) -> str:  
     """
 
     :param plain_text: 明文
@@ -186,7 +186,7 @@ def vigenere_encrypt(plain_text: str, key: str) -> str:  # 吕泽宇
     return vigenere_encry(plain_text, key)
 
 
-def vigenere_decrypt(cipher_text: str, key: str) -> str:  # 吕泽宇
+def vigenere_decrypt(cipher_text: str, key: str) -> str: 
     """
 
     :param cipher_text: 密文
@@ -206,7 +206,7 @@ def coloumn_permutation_encrypt(plain_text: str, key: str) -> str:  # 吕泽宇
     return column_encry(plain_text, key)
 
 
-def coloumn_permutation_decrypt(cipher_text: str, key: str) -> str:  # 吕泽宇
+def coloumn_permutation_decrypt(cipher_text: str, key: str) -> str: 
     """
 
     :param cipher_text: 密文
@@ -216,7 +216,7 @@ def coloumn_permutation_decrypt(cipher_text: str, key: str) -> str:  # 吕泽宇
     return column_decry(cipher_text, key)
 
 
-def double_transposition_encrypt(plain_text: str, key: str) -> str:  # 吕泽宇
+def double_transposition_encrypt(plain_text: str, key: str) -> str:  
     """
 
     :param plain_text: 明文
@@ -226,7 +226,7 @@ def double_transposition_encrypt(plain_text: str, key: str) -> str:  # 吕泽宇
     return double_encry(plain_text, key)
 
 
-def double_transposition_decrypt(cipher_text: str, key: str) -> str:  # 吕泽宇
+def double_transposition_decrypt(cipher_text: str, key: str) -> str: 
     """
 
     :param cipher_text: 密文
@@ -236,7 +236,7 @@ def double_transposition_decrypt(cipher_text: str, key: str) -> str:  # 吕泽�
     return double_decry(cipher_text, key)
 
 
-def RC4_cipher_encrypt(plaintext: str, key: str):  # 李慧玲
+def RC4_cipher_encrypt(plaintext: str, key: str):  
     """
 
         :param plaintext: 待加密的明文字符串
@@ -247,7 +247,7 @@ def RC4_cipher_encrypt(plaintext: str, key: str):  # 李慧玲
     return RC4_encrypt(plaintext, key)
 
 
-def RC4_cipher_decrypt(ciphertext: str, key: str):  # 李慧玲
+def RC4_cipher_decrypt(ciphertext: str, key: str):  
     """
 
         :param ciphertext: 用RC4加密的密文字符串
