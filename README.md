@@ -12,5 +12,7 @@ CryptographyExperimentCourse3 of Northeastern University
 一般情况下，双击两个.vbs文件是可以直接运行的，倘若由于系统或者配置的问题无法立即正常运行，可以通过cmd命令行或者powershell运行。
 
 powershell/cmd中运行流程：
+`usage:`   
 1.cd到run.vbs所在的文件目录下
+`usage:`   
 2.执行命令：./small/python.exe run.py
